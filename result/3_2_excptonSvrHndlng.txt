@@ -1,0 +1,14 @@
+GET http://localhost:8080/v1/place?q=%EA%B3%B1%EC%B0%BD&currentPage=3&pageSize=9
+
+HTTP/1.1 400
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 22 Oct 2020 14:39:14 GMT
+Connection: close
+
+{
+  "message": "server error. 관리자에게 문의해 주시기 바랍니다.",
+  "code": "EE99"
+}
+
+Response code: 400; Time: 1729ms; Content length: 61 bytes
