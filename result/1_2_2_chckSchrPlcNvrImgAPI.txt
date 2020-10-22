@@ -1,0 +1,85 @@
+GET http://localhost:8080/v1/place?q=%EA%B3%B1%EC%B0%BD&currentPage=3&pageSize=9
+
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 22 Oct 2020 14:14:52 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+  "meta": {
+    "totalPages": 1490,
+    "totalElements": 13415,
+    "currentPage": 3,
+    "pageSize": 9
+  },
+  "places": [
+    {
+      "title": "\"당산옛날곱창\"",
+      "imageUrls": [
+        "\"https://mp-seoul-image-production-s3.mangoplate.com/906077_1518602944950344.jpg?fit=around%7C512:512&crop=512:512;*,*&output-format=jpg&output-quality=80\"",
+        "\"https://ldb-phinf.pstatic.net/20160329_285/1459241306255KJd3j_JPEG/176279577843241_19.jpg\"",
+        "\"https://mp-seoul-image-production-s3.mangoplate.com/799160_1501511488997550.jpg?fit=around%7C512:512&crop=512:512;*,*&output-format=jpg&output-quality=80\""
+      ]
+    },
+    {
+      "title": "\"문화양곱창\"",
+      "imageUrls": [
+        "\"http://img.ezmember.co.kr/cache/board/2016/08/24/acf09f9e08edd8a2252481d0c91f8125.jpg\"",
+        "\"http://post.phinf.naver.net/MjAxNzExMTdfMTY2/MDAxNTEwOTEwNTExMzI2.-FNwXwYidWXzgOxl9UDMiy1uJFcZN6iaG0R6MOC4Ntsg.bNfB77HXZN4W6Vpwh9savnDAM9CQca-rBNuPl7_QT1kg.JPEG/ILuGH2NNsM_EVv22SMjH4bkdXPfc.jpg\"",
+        "\"http://nthumb.cyworld.com/thumb?width=639&url=http%3A%2F%2Fc2down.cyworld.co.kr%2Fdownload%3Ffid%3D64223fe043b1933f100e40be4413712e%26name%3DDSCF0382.jpg\""
+      ]
+    },
+    {
+      "title": "\"구들마루\"",
+      "imageUrls": [
+        "\"http://post.phinf.naver.net/MjAxNzA2MjZfNjkg/MDAxNDk4NDUwNzczNTk0.ONuHNkXx9wAT4UYVmjch65l733tSZxFHOK79XJ6aVykg.jnYGH2IScvSNg1ijJnofwXqKzc6Cr8Loztqfecd4ttgg.JPEG/IKhD6m1afdsxr8dRZTtjetV58RcU.jpg\"",
+        "\"http://img.danawa.com/prod_img/500000/124/489/img/6489124_1.jpg?shrink=500:500&_v=20181001100142\"",
+        "\"https://ldb-phinf.pstatic.net/20200116_70/1579172457696pw58r_JPEG/b5sXPTT0lh6r5pHl3kQxdMJf.jpg\""
+      ]
+    },
+    {
+      "title": "\"대정양곱창 본관\"",
+      "imageUrls": []
+    },
+    {
+      "title": "\"걸리버막창 동성로직영점\"",
+      "imageUrls": []
+    },
+    {
+      "title": "\"옛날오막집\"",
+      "imageUrls": [
+        "\"http://post.phinf.naver.net/MjAxNzA1MzBfMTc2/MDAxNDk2MTI3MjMxMzQ0.COwl6mv1vFQZSm_uROLTXDQHSIsfC2T6ggy9xsaAkaYg.FXZRCLCSwxG_st8fwDSv2n2V39HhHFpaeufRdthjhJAg.JPEG/InIQaSoRzpcDFvoo3g__htQqNjjg.jpg\"",
+        "\"http://c2.poing.co.kr/PIMAGE-original/5629e734d820b9429e000026.png\"",
+        "\"http://imgnews.naver.net/image/5239/2016/01/14/246362_image_4_99_20160114101003.jpg\""
+      ]
+    },
+    {
+      "title": "\"진성한우곱창\"",
+      "imageUrls": [
+        "\"http://post.phinf.naver.net/MjAxNzA3MTBfMjkx/MDAxNDk5NjczNzgzNjYz.qzmFyDfjsF_ne1tU-WCSCcv-QKVIxlO_Eda2qOxO85sg.ve-BsZiRR03xi9L3C3MDiT4ZmGUSE1XmFVHzrtOc0lIg.JPEG/IPfM2ooC0j-SWEx90NH1dgR2vxsc.jpg\"",
+        "\"http://imgnews.naver.net/image/5672/2020/02/27/0000030375_001_20200227185038688.jpg\"",
+        "\"http://post.phinf.naver.net/MjAxNzAxMjdfMjcy/MDAxNDg1NDczMTczMDUw.sZXq_8gYbOuJZWj3sGxXchf-neakBB3-RvQOVvVLtwUg.VqmNWwjAwHsxCaV4VKo-lQgTsyICh0ZxJyOpFW2fmZkg.JPEG/ITbM8YrMPoYaKdLw4dF61kdyJMac.jpg\""
+      ]
+    },
+    {
+      "title": "\"곰바위\"",
+      "imageUrls": [
+        "\"http://cfile226.uf.daum.net/image/223ECC4C53567FEC146074\"",
+        "\"http://post.phinf.naver.net/MjAxNzAxMDlfOSAg/MDAxNDgzOTI4Mjg2NzIw.crar0Uu9D9DyUhI-46xcAORm9-1TqjKYfIAFxmbJ9UYg.0CJ7-hQrLGQlbDz82YhCyyI3QnG8IxsxbU9tDA8pFuog.JPEG/Idx5NIegbSLY50OjwqP71BPR8Ba4.jpg\"",
+        "\"http://imgnews.naver.net/image/5200/2015/09/10/64250_41646_4255_99_20150910105009.jpg\""
+      ]
+    },
+    {
+      "title": "\"해성막창집 엘시티점\"",
+      "imageUrls": [
+        "\"http://post.phinf.naver.net/MjAxOTEyMjBfMjkx/MDAxNTc2ODAyMjEzNDky.9PbDxEo-h-voj6KLiUlYt6U0f5zXzZwQAu5NdmMOe7gg.d1SD6FPbdceCEaJi3sLrE6om_3L2oAEhyL5lNIJF5zAg.JPEG/ITguy5xrUj2M_yeZaOE6ulKesaGc.jpg\"",
+        "\"https://ldb-phinf.pstatic.net/20190627_134/1561611938424l8yE0_JPEG/eQ9d7Pft1p7kDf67GCpKXrXX.jpg\"",
+        "\"http://post.phinf.naver.net/MjAxODExMjVfMjYg/MDAxNTQzMTQ0NTcwNzgw.Dyql8lrnSLcO2G1oi-j3WT_tQjXm4pueLio02xxUaeQg.vuSmQU7LxoZkS3YRBoxPpPeBjLxEpqBCxiMsfRJSLRAg.JPEG/I5_SykgnfznX6wFDD-vuSf7sAzt4.jpg\""
+      ]
+    }
+  ]
+}
+
+Response code: 200; Time: 2804ms; Content length: 3412 bytes

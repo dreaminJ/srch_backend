@@ -1,0 +1,56 @@
+GET http://localhost:8080/v1/place?q=%EA%B3%B1%EC%B0%BD&currentPage=3&pageSize=9
+
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 22 Oct 2020 14:13:26 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+  "meta": {
+    "totalElements": 5,
+    "pageSize": 0,
+    "totalPages": 0
+  },
+  "places": [
+    {
+      "title": "\"청어람 망원점\"",
+      "imageUrls": [
+        "\"https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fsearch.pstatic.net%2Fcommon%2F%3FautoRotate%3Dtrue%26quality%3D100%26src%3Dhttp%253A%252F%252Fldb.phinf.naver.net%252F20150831_127%252F1440995669987V1BdA_JPEG%252F106553505940430_0.jpg%26type%3Df640_380%22&type=ff500_300\"",
+        "\"https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fsearch.pstatic.net%2Fcommon%2F%3FautoRotate%3Dtrue%26quality%3D100%26type%3Df640_380%26src%3Dhttp%253A%252F%252Fldb.phinf.naver.net%252F20190826_150%252F1566805194332rJedO_JPEG%252Fjkslr_eeNVB8dzKNpwYsoObL.jpg%22&type=ff500_300\"",
+        "\"http://postfiles10.naver.net/MjAyMDA5MjBfMTUw/MDAxNjAwNjA2NzA0MDc0.-xe-kaDv4CEbDP06l8rCBWpUkdZkD8AYndKtR5AjCzAg.KdsiWrWU00GWkQDkz2gSP5NJ90Wcg25vOu2k2sciZDcg.JPEG.ebc1018/1600606703023.jpg?type=w773\""
+      ]
+    },
+    {
+      "title": "\"곱 마포점\"",
+      "imageUrls": [
+        "\"http://postfiles13.naver.net/MjAyMDAxMjVfMjky/MDAxNTc5OTMwMTg3MTg4.xvq9e-e4VEo6OVHaL2OOMmuuwHFkQ9Vj7r9FyZrS1-0g.NROdXxC3IvqKE6MNhsGXRF4fFFeMhoP5rvKfRFCGTagg.PNG.monblac1/%EB%A7%88%ED%8F%AC%EC%9D%B4%EC%98%81%EC%9E%90%EB%A7%9B%EC%A7%91_%EA%B3%B1%EB%A7%88%ED%8F%AC%EC%A0%90.png?type=w966\"",
+        "\"http://postfiles11.naver.net/MjAyMDAzMDdfNyAg/MDAxNTgzNTQ5ODgxNjgx.C58S7vp2PL-b4eCFFcbnOtvOqRpl8K8DPrVCpMlbgEYg.hfBE8RoEpA_h0NufBpybvrFkHKBWcGzQsjtv6rl918Ug.JPEG.sjejlove04/IMG_2728.JPG?type=w966\"",
+        "\"http://postfiles4.naver.net/MjAxOTEwMjhfMTQ4/MDAxNTcyMjcwOTYzMTgz.QLQnWq9c29_Fa4zWwDKSmxChJlzzxs1oMWbHQDAKkNog.cybr4UVHWFn_MVdlU0SX_Q1k0IXDV693N21Jbh3wLhUg.JPEG.asknc/1572270960462.jpg?type=w966\""
+      ]
+    },
+    {
+      "title": "\"평양집\"",
+      "imageUrls": [
+        "\"http://postfiles16.naver.net/MjAxOTEyMjNfMTg4/MDAxNTc3MDY1MTE5MTM4.pq6VVG9C1a3dPLqOhqtzdK6-WggnILpqtNwp8mwaGrog.5u-LvWbiHl8oyHalGROX8RPbtqJPFcBR5Em-t2z_qhsg.PNG.bongsunwha33/%ED%8F%89%EC%96%91%EC%A7%91.png?type=w773\"",
+        "\"http://postfiles15.naver.net/20150806_206/gameegajae1_1438836022285aIH0j_JPEG/%BB%EF%B0%A2%C1%F6_%C6%F2%BE%E7%C1%FD.jpg?type=w3\"",
+        "\"https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fsearch.pstatic.net%2Fcommon%2F%3FautoRotate%3Dtrue%26quality%3D100%26src%3Dhttp%253A%252F%252Fblogfiles.naver.net%252FMjAxNzAxMDlfNDgg%252FMDAxNDgzOTUwNzEzMjkx.hrBeNTzsWzgCNcYDcD_6Kx_K6MsAWFKwZCt8dX3mME0g.NpiBPL7cDZkiq7PF9QZg4bjnwJJ6qffjrOnDzjsiKQwg.JPEG.zephyr122059%252F20170109_130724.jpg%25234032x3024%26type%3Df640_380%22&type=ff500_300\""
+      ]
+    },
+    {
+      "title": "\"김덕후의<b>곱창</b>조 홍대본점\"",
+      "imageUrls": [
+        "\"http://postfiles5.naver.net/MjAxOTAzMjJfNjgg/MDAxNTUzMjM0NTM4MDAz.21f2h9H3_hBXKcMe4IoM1L2s-VWbZrVBfqcp2cKAN7Ag.E80UoxcP-VJYuRPUj6eyUsC6PFJrtqn6s9KdH8UQ_dEg.JPEG.redred0454/SE-3b38b4ea-6977-48a3-be2b-0f5089d453f8.jpg?type=w966\""
+      ]
+    },
+    {
+      "title": "\"백화양<b>곱창</b>\"",
+      "imageUrls": [
+        "\"http://postfiles10.naver.net/20141208_25/ehowl101_1418004469550HCuSC_JPEG/P20141115_190735323_BCBEB646-4EC0-4A40-ACE9-B9F8A61E728B.JPG?type=w1\""
+      ]
+    }
+  ]
+}
+
+Response code: 200; Time: 2672ms; Content length: 2877 bytes

@@ -1,0 +1,93 @@
+GET http://localhost:8080/v1/place?q=%EA%B3%B1%EC%B0%BD&currentPage=3&pageSize=9
+
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 22 Oct 2020 14:09:27 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+  "meta": {
+    "totalPages": 1490,
+    "totalElements": 13415,
+    "currentPage": 3,
+    "pageSize": 9
+  },
+  "places": [
+    {
+      "title": "\"당산옛날곱창\"",
+      "imageUrls": [
+        "\"http://postfiles15.naver.net/MjAxODA0MjlfMjAw/MDAxNTI0OTg2NjY2MzEz._DjKnCINtbqmYDrC5dcZyFFb7rHkigWqlY4TavnyDGAg.mZF_ra9SM6-y-coTGXV77mXabPA5_FZPs4Tj6gPR_SUg.JPEG.everlsk/SAM_3757.JPG?type=w966\"",
+        "\"https://blogfiles.pstatic.net/MjAxOTA5MzBfOTUg/MDAxNTY5Nzk3MjY0NTkz.zB9ODgG_qVoa9YBUEc6lIxm4v_TVqQB02syPHt8FIZ0g.6XY2tDp1isR71woBKUL94HBBZOZcQqpJIkSmtvGJNv0g.JPEG.hepist/20190928_191933.jpg?type=w3\"",
+        "\"http://cfile8.uf.tistory.com/image/992ABC3E5C47E7DA053178\""
+      ]
+    },
+    {
+      "title": "\"문화양곱창\"",
+      "imageUrls": [
+        "\"http://postfiles5.naver.net/20141219_244/dgsns_1418996681993melmw_JPEG/%B9%AE%C8%AD%BE%E7%B0%F6%C3%A2_%283%29.jpg?type=w2\"",
+        "\"http://postfiles4.naver.net/20141219_163/dgsns_1418996682320py7hB_JPEG/%B9%AE%C8%AD%BE%E7%B0%F6%C3%A2_%284%29.jpg?type=w2\"",
+        "\"http://postfiles3.naver.net/20150408_18/bellabag_1428484758324rmbOU_JPEG/%BC%AD%B8%E9_%B9%AE%C8%AD%BE%E7%B0%F6%C3%A2_%283%29.jpg?type=w2\""
+      ]
+    },
+    {
+      "title": "\"구들마루\"",
+      "imageUrls": [
+        "\"http://postfiles10.naver.net/MjAxOTAzMDFfMTg3/MDAxNTUxNDI4NjY2NDU4.M6yQ9Vc5yPW3UqHlvZMYRHk0WSuzQg0hR8Dv3Zsf8tkg.Lqaaqa7H6ErcAF8JnhM_kvBc-vkXJJumVYjhdZUTEkkg.JPEG.jinsegi2972/%EA%B5%AC%EB%93%A4_(10).jpg?type=w966\"",
+        "\"http://postfiles10.naver.net/20151210_137/hayarimold_1449739724490D9fAO_JPEG/20150719_161941_001.jpg?type=w1\"",
+        "\"http://postfiles2.naver.net/MjAxOTAzMDFfMjAy/MDAxNTUxNDI4NjY1NDQy.iiFTTA02auQRUQF432C4xeViK0jKOKSzKyhek-gradAg.tWkXUh1VV2wOir3VH2R52G0o2mJqG64DUslDv3JJcjAg.JPEG.jinsegi2972/%EA%B5%AC%EB%93%A4_(4).jpg?type=w966\""
+      ]
+    },
+    {
+      "title": "\"대정양곱창 본관\"",
+      "imageUrls": [
+        "\"http://postfiles11.naver.net/MjAxODA1MDlfMjgy/MDAxNTI1ODI4MTM1NDk3.OtekGUgUTYY7CEaLVmvS22VDe6XQLaaUzHb5szsddw8g.zyAzdU7eg7NJ5linrLO1k8UNgM7GHf5PvD_cSLVMyrwg.JPEG.acb258/IMG_1296.jpg?type=w773\"",
+        "\"http://postfiles14.naver.net/MjAyMDAzMjlfMjEw/MDAxNTg1NDU1NDA3Mjk1.FACgtONFjlgbJBX6ySUFUTebwRe-FSTidjTamMpdk-Ug.unW43GlaMmCP8mfGCxP6slmrZJOBblPzM91l6ETn-IAg.JPEG.peachli/IMG_4022.JPG?type=w966\"",
+        "\"http://postfiles7.naver.net/MjAyMDAzMjlfMTI3/MDAxNTg1NDU1NDA3OTg2.5SCO0FjRWSn2HvmiEHVYeAPKyRagNscCU1Z26Y3N2HYg.0iBEeKGdRz0RpVRYYMY1fl1KwqmBJF1fAx9lOQyeYXsg.JPEG.peachli/IMG_4023.JPG?type=w966\""
+      ]
+    },
+    {
+      "title": "\"걸리버막창 동성로직영점\"",
+      "imageUrls": [
+        "\"https://k.kakaocdn.net/dn/bp20th/btqFbkew37j/TfCpBvI4SsP9VMrWKjqwxK/img.jpg\"",
+        "\"http://postfiles9.naver.net/MjAyMDA3MTFfOTcg/MDAxNTk0NDQ1MjY4NjM2.xJ9tqNYhiAj9d8xLShkpRg2609NXB425-YMvU3Z4GqAg.eFEfZcwlFwF5fNPgF7Or1w0oujtZlcV2NNfEPqTMsskg.JPEG.m_aa7_m/IMG_2790.jpg?type=w773\"",
+        "\"http://postfiles11.naver.net/MjAyMDA3MTFfMjE1/MDAxNTk0NDcxNzA5MDA2.le8GH9H3WO-arLwntrtLcPwfl9we1SWferrlO0pqxGUg.sdO_mFkCO5RMlsfahRpsscjfl7r2sbk4Fdf8YFtyyNAg.JPEG.m_aa7_m/output_2979087443.jpg?type=w773\""
+      ]
+    },
+    {
+      "title": "\"옛날오막집\"",
+      "imageUrls": [
+        "\"http://t1.daumcdn.net/cafeattach/aVeZ/8fdb3ae60efd2336589a63b08bb352e9bd88870a\"",
+        "\"http://postfiles2.naver.net/20161020_177/hjinnyk71_1476957168313DTwNG_JPEG/%BA%CE%BB%EA%B8%C0%C1%FD_%BF%BE%B3%AF%BF%C0%B8%B7%C1%FD_%BC%F6%BF%E4%B9%CC%BD%C4%C8%B8_%C7%D1%BF%EC%B4%EB%C3%A2___%281%29.JPG?type=w966\"",
+        "\"http://postfiles9.naver.net/MjAxNzExMTNfMzAw/MDAxNTEwNTQ5MTQ4NjE4.UJWL2vIbdTX_kEy18OjX0RV1mf2M8jYAV7tcC8oepvUg.OkKRMTQqY5pwUzxNVgqj3GscqG5lVCUdLB3U7v6bqakg.JPEG.melvin7/IMG_6134.jpg?type=w773\""
+      ]
+    },
+    {
+      "title": "\"진성한우곱창\"",
+      "imageUrls": [
+        "\"http://postfiles6.naver.net/MjAxOTEyMDNfMjU0/MDAxNTc1MzQ2MTkwNTU5.xLGmzQUkd-UC9CCvRXrm0D_KhpFQH6Hvvs__ExP4jcUg.uneBnTmAwIL43aWSlX0mfuJH7IO8PLSJEBpdUZPY5_wg.JPEG.luckusb/KakaoTalk_20191203_104854149.jpg?type=w773\"",
+        "\"http://cfile274.uf.daum.net/image/1310A6474F23B1BD0EF5A2\"",
+        "\"http://postfiles1.naver.net/MjAyMDA4MDhfMzcg/MDAxNTk2ODc5MDE1Mjc0.VHetGgFwLFH4bPXUZAY9b7T18BjpnivRD50cgrBJdeEg.DCpJcCLpa2x0lMLIMUAGGweWKI3w4e0CmnN7LK5i99Qg.JPEG.kjsong38/1596879016977.jpg?type=w580\""
+      ]
+    },
+    {
+      "title": "\"곰바위\"",
+      "imageUrls": [
+        "\"https://support.visitkorea.or.kr/img/call?cmd=VIEW&id=97f1b90f-1fb5-457c-a742-8a0499a8a677\"",
+        "\"http://cfile10.uf.tistory.com/image/99AD9A455C30CE7A19836A\"",
+        "\"http://cfile30.uf.tistory.com/image/9948B13359D263FA1502F1\""
+      ]
+    },
+    {
+      "title": "\"해성막창집 엘시티점\"",
+      "imageUrls": [
+        "\"http://postfiles9.naver.net/20160410_184/t_t2014_1460218485060NSpeJ_JPEG/%C4%B8%C3%B3.JPG?type=w966\"",
+        "\"http://cfile21.uf.tistory.com/image/99F2A6465D1AF9DE2F0907\"",
+        "\"http://cfile9.uf.tistory.com/image/997B08465D1AF9DC34B9F0\""
+      ]
+    }
+  ]
+}
+
+Response code: 200; Time: 925ms; Content length: 4373 bytes

@@ -1,0 +1,24 @@
+###
+
+# curl -X GET "https://dapi.kakao.com/v2/local/search/keyword.json?page=1&size=15&sort=accuracy&query=%EA%B3%B1%EC%B0%BD"
+#	-H "Authorization: KakaoAK {REST_API_KEY}"
+
+
+GET https://dapi.kakao.com/v2/local/search/keyword.json?page=1&size=4&sort=accuracy&query=%EA%B3%B1%EC%B0%BD
+Authorization: KakaoAK c3914098a2b5c1e0946a28c7ad9db3f5
+
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "query=설현"
+#-H "Authorization: KakaoAK {REST_API_KEY}"
+
+
+GET https://dapi.kakao.com/v2/search/image?query=AOA
+Authorization: KakaoAK c3914098a2b5c1e0946a28c7ad9db3f5
+Content-Type: application/x-www-form-urlencoded
+
+
+###
+
+
+

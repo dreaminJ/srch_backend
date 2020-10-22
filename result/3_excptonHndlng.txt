@@ -1,0 +1,14 @@
+GET http://localhost:8080/v1/place
+
+HTTP/1.1 400 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 22 Oct 2020 14:03:55 GMT
+Connection: close
+
+{
+  "message": "q 잘못된 쿼리 요청입니다. 관리자에게 문의해 주시기 바랍니다.",
+  "code": "EE01"
+}
+
+Response code: 400; Time: 83ms; Content length: 63 bytes

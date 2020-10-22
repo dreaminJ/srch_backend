@@ -1,0 +1,53 @@
+GET http://localhost:8080/v1/place/keyword/
+
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 22 Oct 2020 14:09:04 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+  {
+    "title": "초콜릿",
+    "count": 4
+  },
+  {
+    "title": "핫케잌",
+    "count": 2
+  },
+  {
+    "title": "케잌",
+    "count": 2
+  },
+  {
+    "title": "물고기",
+    "count": 2
+  },
+  {
+    "title": "카카오",
+    "count": 2
+  },
+  {
+    "title": "하모니",
+    "count": 1
+  },
+  {
+    "title": "오레오",
+    "count": 1
+  },
+  {
+    "title": "토마토",
+    "count": 1
+  },
+  {
+    "title": "별사탕",
+    "count": 1
+  },
+  {
+    "title": "사탕",
+    "count": 1
+  }
+]
+
+Response code: 200; Time: 232ms; Content length: 259 bytes

@@ -1,0 +1,92 @@
+GET http://localhost:8080/v1/place?q=하모니
+
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+GET http://localhost:8080/v1/place?q=토마토
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+GET http://localhost:8080/v1/place?q=카카오
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+GET http://localhost:8080/v1/place?q=카카오
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+
+GET http://localhost:8080/v1/place?q=초콜릿
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+GET http://localhost:8080/v1/place?q=초콜릿
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+GET http://localhost:8080/v1/place?q=초콜릿
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+GET http://localhost:8080/v1/place?q=초콜릿
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+GET http://localhost:8080/v1/place?q=오레오
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+GET http://localhost:8080/v1/place?q=사탕
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+GET http://localhost:8080/v1/place?q=별사탕
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+GET http://localhost:8080/v1/place?q=케잌
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+GET http://localhost:8080/v1/place?q=핫케잌
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+GET http://localhost:8080/v1/place?q=케잌
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+GET http://localhost:8080/v1/place?q=핫케잌
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+GET http://localhost:8080/v1/place?q=물고기
+###
+# curl -v -X GET "https://dapi.kakao.com/v2/search/image"
+#--data-urlencode "
+
+GET http://localhost:8080/v1/place?q=물고기
